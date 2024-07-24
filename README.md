@@ -77,3 +77,6 @@ g++ -o `path` lua_.cpp -lssl -lcrypto
 ```sh
 ./path myscript.lua encrypted_script mysecretkey
 ```
+
+
+# โปรดเข้าใจว่านี่เป็นเพียงตัวอย่างการออกแบบเท่านั้น ไม่เหมาะสำหรับใช้งานจริงๆ
