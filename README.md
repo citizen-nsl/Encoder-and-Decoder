@@ -67,3 +67,13 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 ```
+
+## คอมไพล์และรัน
+```sh
+g++ -o `path` lua_.cpp -lssl -lcrypto
+```
+
+## การใช้งาน
+```sh
+./path myscript.lua encrypted_script mysecretkey
+```
